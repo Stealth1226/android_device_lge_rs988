@@ -110,4 +110,13 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Ignore LG's bootloader wipe commands
 TW_IGNORE_MISC_WIPE_DATA := true
-#
+
+#SHRP Stuff
+SHRP_DEVICE_CODE := rs988
+SHRP_PATH := device/lge/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := Stealth1226
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EXTERNAL := /sdcard1
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_DARK := true
